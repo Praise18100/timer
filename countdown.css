@@ -44,17 +44,25 @@ div{
 }
 @media screen {
     h1{
-        font-size: 45px;
+        font-size: 70px;
     }
     .time{
         margin: 1;
     }
     .time h2{
-        font-size: 12px;
+        font-size: 20px;
     }
     .time small{
         font-size: 10px;
     }
+    img{
+        width: 700px; 
+    height: 600px;
+    }
+    p{
+        font-size: 30px;
+    }
+
 }
 img{ width: 500px; 
     height: 400px;
