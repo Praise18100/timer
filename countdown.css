@@ -4,10 +4,16 @@ body{
     color: rgba(255, 255, 255, 0.925);
 }
 h1{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: normal;
     font-weight: bolder;
-    margin-top: 120px;
+    margin-top: 80px;
+}
+p{
+    font-size: 23px;
+}
+h3{
+    font-size: 27px;
 }
 .countdown{
     display: flex;
@@ -22,6 +28,13 @@ div{
     margin-right: 20px;
     font-weight: bold;  
 }
+img{ width: 500px; 
+    height: 400px;
+    float: left; 
+    margin-left: 50px;
+    margin-right: 70px;
+    border-radius: 30px;
+    }
 .time{
     display: flex ;
     justify-content: center;
@@ -42,9 +55,10 @@ div{
     line-height: 0;
     display: flex;
 }
-@media only screen and (max-witdth:600px) {
+
+@media screen and (max-width:700px) {
     h1{
-        font-size: 45px;
+        font-size: 30px;
     }
     .time{
         margin: 1;
@@ -56,18 +70,15 @@ div{
         font-size: 10px;
     }
     img{
-        width: 900px; 
-    height: 700px;
+        width: 350px; 
+    height: 300px;
     }
     p{
-        font-size: 30px;
+        font-size: 15px;
+    }
+    .countdown{
+        transform: scale(1.8);
     }
 
 }
-img{ width: 500px; 
-    height: 400px;
-    float: left; 
-    margin-left: 50px;
-    margin-right: 70px;
-    border-radius: 30px;
-}
+    
